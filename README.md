@@ -11,4 +11,4 @@ The library is exproted as CircleMath and the surface function can be used as ``
 
 
 -----
-2020, Hervé Mutombo
+2021, Hervé Mutombo
