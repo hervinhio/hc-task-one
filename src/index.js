@@ -1,4 +1,4 @@
-function surface(r) {
+function circleSurface(r) {
   if (!r || isNaN(Number(r)) || r <= 0) {
     throw new Error('Radius must be a positive number');
   }
@@ -6,8 +6,4 @@ function surface(r) {
   return Number(r)^2 * Math.PI;
 }
 
-module.exports = {
-  CircleMath: {
-    surface,
-  }
-}
+module.exports = circleSurface;
